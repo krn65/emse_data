@@ -3,7 +3,8 @@ NOTE: Due to GitHub size limitations, we are unable to upload the entirety of ou
 
 If this link becomes unavailable at any point, please contact and let us know so we can update.
 
-We present data used for experiments in the Empirical Software Engineering (EMSE) journal manuscript: "An Empirical Study of Text-based Machine Learning Models for Vulnerability Detection" by Kollin Napier, Dr. Tanmay Bhowmik, and Dr. Shaowei Wang (Napier et al.).
+We present data used for experiments in the Empirical Software Engineering (EMSE) journal manuscript:
+Napier, Kollin, Tanmay Bhowmik, and Shaowei Wang. "An empirical study of text-based machine learning models for vulnerability detection." Empirical Software Engineering 28, no. 2 (2023): 38. https://doi.org/10.1007/s10664-022-10276-6
 
 The data includes `fixed` and `vulnerable` instances of functions extracted and paired from source code of various projects. In some cases, the data has been processed with one of three data processing methods we introduced in our study: 1) Full Context (FC) (raw data from extracted function, minus comments), 2) Condensed data from FC method that removes duplicate pieces of split functions based on whitespace, referred to as No Context (NC) in our manuscript. 3) Condensed data from FC method that removes duplicate pieces of split functions based on semicolons (lines of source code). Additionally, if available, add context of two (2) lines which occurred before and after a current line. We refer to this data processing method as Lines Context (LC).
 
